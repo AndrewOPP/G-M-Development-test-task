@@ -1,16 +1,10 @@
+import { StyledWrapper } from './App.styled';
+import { ServiceCards } from './ServiceCards/ServiceCards';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <StyledWrapper>
+      <ServiceCards />
+    </StyledWrapper>
   );
 };
