@@ -9,7 +9,8 @@
       "Repair Under Sink Plumbing"
     ],
     "borderColor": "#179D2E",
-    "icon": "#icon-water"
+    "icon": "#icon-water",
+    "cardWidth": 479
   },
   {
     "title": "Drywall & Painting",
@@ -21,7 +22,8 @@
       "Paint a Cabinet Door"
     ],
     "borderColor": "#0177B8",
-     "icon": "#icon-paint"
+     "icon": "#icon-paint",
+    "cardWidth": 479
   },
   {
     "title": "Furniture Assembly",
@@ -34,7 +36,8 @@
   
     ],
     "borderColor": "#F5AF23",
-     "icon": "#icon-sofa"
+     "icon": "#icon-sofa",
+    "cardWidth": 479
   },
   {
     "title": "Electrical",
@@ -45,7 +48,8 @@
       "Install / Replace an Bathroom Exhaust Fan"
     ],
     "borderColor": "#F02E2C",
-     "icon": "#icon-electrical"
+     "icon": "#icon-electrical",
+    "cardWidth": 497
   },
   {
     "title": "Doors & windows",
@@ -56,7 +60,8 @@
       "Repair a Door Frame"
     ],
     "borderColor": "#179D2E",
-     "icon": "#icon-door"
+     "icon": "#icon-door",
+    "cardWidth": 497
   },
   {
     "title": "Hanging & mounting",
@@ -67,7 +72,8 @@
       "Hang a Bathroom Fixture"
     ],
     "borderColor": "#0177B8",
-     "icon": "#icon-picture"
+     "icon": "#icon-picture",
+    "cardWidth": 497
   },
   {
     "title": "Appliance installation",
@@ -77,7 +83,8 @@
       "Replace an Existing Oven "
     ],
     "borderColor": "#F5AF23",
-     "icon": "#icon-instalation"
+     "icon": "#icon-instalation",
+    "cardWidth": 540
   },
     {
     "title": "Smart home",
@@ -88,7 +95,8 @@
       "Install an Under Sink Water Filtration System "
     ],
     "borderColor": "#F02E2C",
-     "icon": "#icon-home"
+     "icon": "#icon-home",
+    "cardWidth": 540
   },
     {
     "title": "Outdoor",
@@ -99,6 +107,7 @@
       "Install a Storm Door"
     ],
     "borderColor": "#179D2E",
-     "icon": "#icon-box"
+     "icon": "#icon-box",
+    "cardWidth": 540
   }
 ]

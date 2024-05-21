@@ -10,9 +10,9 @@ import {
 } from './Card.styled';
 
 export const Card = ({ cardInfo }) => {
-  const { title, items, borderColor, icon } = cardInfo;
+  const { title, items, borderColor, icon, cardWidth } = cardInfo;
   return (
-    <StyledCardBox bordercolor={borderColor}>
+    <StyledCardBox bordercolor={borderColor} cardWidth={cardWidth}>
       <div>
         <StyledSvg>
           <use href={sprite + icon}></use>
@@ -25,9 +25,9 @@ export const Card = ({ cardInfo }) => {
         </StyledItemsList>
       </div>
 
-      <StyledLinkWrapper>
-        <StyledLink href="/">View more</StyledLink>
-      </StyledLinkWrapper>
+      {/* <StyledLinkWrapper> */}
+      <StyledLink href="/">View more</StyledLink>
+      {/* </StyledLinkWrapper> */}
     </StyledCardBox>
   );
 };

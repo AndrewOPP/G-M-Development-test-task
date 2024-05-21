@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 export const StyledCardBox = styled.div`
   width: 372px;
-  height: 527px;
+  min-height: ${props => props.cardWidth + `px`};
+  /* max-height: 528px; */
+
   border: 2px solid;
   border-color: ${props => props.bordercolor || 'blue'};
   display: flex;
@@ -38,6 +40,9 @@ export const StyledItem = styled.li`
   line-height: 36px;
 `;
 export const StyledLink = styled.a`
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
   text-decoration: underline;
   text-underline-offset: 4px;
   font-size: 24px;
