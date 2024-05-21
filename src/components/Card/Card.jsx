@@ -4,7 +4,6 @@ import {
   StyledItem,
   StyledItemsList,
   StyledLink,
-  StyledLinkWrapper,
   StyledSvg,
   StyledTitle,
 } from './Card.styled';
@@ -25,9 +24,7 @@ export const Card = ({ cardInfo }) => {
         </StyledItemsList>
       </div>
 
-      {/* <StyledLinkWrapper> */}
       <StyledLink href="/">View more</StyledLink>
-      {/* </StyledLinkWrapper> */}
     </StyledCardBox>
   );
 };

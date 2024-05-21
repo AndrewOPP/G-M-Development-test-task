@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const StyledCardBox = styled.div`
   width: 372px;
   min-height: ${props => props.cardWidth + `px`};
-  /* max-height: 528px; */
-
   border: 2px solid;
   border-color: ${props => props.bordercolor || 'blue'};
   display: flex;
